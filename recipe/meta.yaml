@@ -1,6 +1,5 @@
 {% set name = "rubin-nights" %}
 {% set version = "0.18.3" %}
-{% set python_min = "3.11" %}
 
 package:
   name: {{ name|lower }}
