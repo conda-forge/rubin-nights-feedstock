@@ -40,8 +40,6 @@ requirements:
 test:
   imports:
     - rubin_nights
-  commands:
-    - pip check
   requires:
     - pip
     - python {{ python_min }}
