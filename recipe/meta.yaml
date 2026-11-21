@@ -1,5 +1,5 @@
 {% set name = "rubin-nights" %}
-{% set version = "0.18.3" %}
+{% set version = "0.19.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/rubin_nights-{{ version }}.tar.gz
-  sha256: a4b4a516c1cf189b3244265010269d2f01af26bb95c52f772afa1cd5741a352b
+  sha256: 83227fb47669ddab7c23b61c7bf99207aff0a1dcd96fd2061ddc2d4a8f5ba233
 
 build:
   noarch: python
